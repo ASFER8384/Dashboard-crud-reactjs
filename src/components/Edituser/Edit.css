@@ -1,0 +1,39 @@
+.users{
+    /* height: 100vh; */
+    text-align: center;
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+}
+.user1{
+    flex: 1;
+}
+.user2{
+    flex: 2;
+ 
+}
+.user3{
+    flex: 2;  
+}
+.addinp{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.adimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.Adduser{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.adduser{
+    padding: 10px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    cursor: pointer;
+}

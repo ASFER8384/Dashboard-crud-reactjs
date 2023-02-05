@@ -1,0 +1,37 @@
+.widget{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px black;
+    height: 100px;
+}
+.left,.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.counter{
+    font-size: 28px;
+}
+.link{
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+.right{
+    align-items: center;
+    font-size: 15px;
+}
+.widget:hover .negative{
+    color: red;
+}
+.widget:hover .positive{
+    color: green;
+}
+.perm{
+    padding: 5px;
+    background-color: violet;
+    border-radius: 10px;
+    align-self: flex-end;
+    cursor: pointer;
+}

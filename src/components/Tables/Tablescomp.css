@@ -1,0 +1,46 @@
+.tables{
+    height: 100vh;
+    margin: 40px;
+   
+}
+.tables-para{
+    margin-bottom: 30px;
+}
+.tab{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    border: 1px solid black;
+}
+.data{
+    padding-left: 60px;
+    border: 1px solid black;
+}
+.data1{
+    /* padding-left: 60px; */
+    border: 1px solid black;
+    width: 100px;
+}
+.dataid{
+    width: 40px;
+
+}
+.dataem{
+    width: 200px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead tr th{
+    /* padding-left:3% */
+    padding-left: 40px;
+    border: 1px solid black;
+
+}
+tbody tr td{
+    padding-left: 40px;
+    /* padding-left:.5% */
+    border: 1px solid black;
+}

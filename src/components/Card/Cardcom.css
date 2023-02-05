@@ -1,0 +1,36 @@
+.cardcom{
+    margin: 20px;
+    /* width: 100%; */
+    min-height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+.left-cardcom{
+    flex: 1;
+}
+.top-left-cardcom{
+    height: 40%;
+    box-shadow: 0px 0px 5px black;
+}
+.bottom-left-cardcom{
+    height: 40%;
+    box-shadow: 0px 0px 5px black;
+    margin-top: 20px;
+}
+.right-cardcom{
+    flex: 1;
+}
+.top-right-cardcom{
+    height: 40%;
+    box-shadow: 0px 0px 5px black;
+}
+.bottom-right-cardcom{
+    height: 40%;
+    box-shadow: 0px 0px 5px black;
+    margin-top: 20px;
+}
+
+
+.collapse{
+    background-color: rgba(128, 128, 128, 0.006);
+}

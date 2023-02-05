@@ -1,0 +1,105 @@
+.logincom{
+    width: 100%;
+    height: 110vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imagelogin{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.Logincom-body{
+    width: 80%;
+    height: 80%;
+    /* background-color: bisque; */
+    display: flex;
+}
+.left-Logincom-body{
+    flex: 1;
+   
+}
+.right-Logincom-body{
+    flex: 1;
+    /* background-color:darkred; */
+    text-align: center;
+    background-color: whitesmoke;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.top-right-Logincom-body{
+height: 60%;
+margin-top: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-bottom: 1px solid rgba(0, 0, 0, 0.712);
+}
+.inp{
+    width: 50%;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.inpp{
+    margin-top: 30px;
+}
+.login{
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    width: 50%;
+    cursor: pointer;
+}
+.bottom-right-Logincom-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Forget{
+    margin-top: 30px;
+    margin-bottom: 7px;
+    color: slateblue;
+}
+.checkk{
+    margin-left: 6px;
+
+}
+a{
+    text-decoration: none;
+    /* color: black; */
+    cursor: pointer;
+    color: slateblue;
+}
+.sub{
+    background-color: slateblue;
+    outline: none;
+    border: none;
+}
+.google{
+    background-color: firebrick;
+    outline: none;
+    border: none;
+}
+.facebook{
+    background-color: slateblue;
+    outline: none;
+    border: none;
+}
+form{
+    width: 100%;
+}
+.error{
+    font-size: 12px;
+    color: red;
+}

@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin:0px  20px;
+}
+.icon-prof{
+    display: flex;
+    gap: 50px;
+}
+.icons,.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inp-nav{
+    height: 28px;
+    width: 250px;
+    outline: none;
+    /* border: none; */
+}
+.btnnav{
+    /* height: 27px; */
+    width: 40px;
+    background-color: blue;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   
+}
+.search-box{
+    display: flex;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.profile-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 100%; */
+}
